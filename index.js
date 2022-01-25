@@ -87,8 +87,14 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Please provide any questions you may have (if applicable).",
-        name: 'questions'
+        message: "If there are any questions please contact me at: ",
+        name: 'questions',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please Enter Email.");
+            }
+            return true;
+        }
     }
 ];
 

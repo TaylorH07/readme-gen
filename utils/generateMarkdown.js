@@ -66,11 +66,12 @@ ${data.contributing}
 ✏️ ${data.tests}
 
 ## Questions
+If you have any questions email me at :
 ${data.questions}
+
 
 Find me on GitHub: [${data.username}](https://github.com/${data.username})
 
-✉️ Email me with any questions: ${data.email}
 
 This README was generated with ❤️ by [readme-gen](https://github.com/TaylorH07/readme-gen) 
     
