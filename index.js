@@ -84,6 +84,11 @@ const questions = [
         type: 'input',
         message: "Provide any tests written for your application and provide examples on how to run them (if applicable).",
         name: 'tests'
+    },
+    {
+        type: 'input',
+        message: "Please provide any questions you may have (if applicable).",
+        name: 'questions'
     }
 ];
 
